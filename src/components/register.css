@@ -1,0 +1,105 @@
+#wrappRegister
+{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+#titleRegister {
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+#register {
+    margin-left: 100px;
+}
+
+#titleH2Register {
+    margin-left: 210px;
+}
+
+#leftRegister {
+    margin-top: 50px;
+}
+
+#formRegister {
+    margin-top: 100px;
+}
+
+.inputRegister {
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+.inputRegister:focus
+{
+    outline:none;
+}
+
+.inputRegister::placeholder
+{
+    color: black;
+}
+
+.inputRegister,
+.bntRegister {
+    width: 500px;
+}
+
+#photoRegister
+{
+    width: 800px;
+    height: 900px;
+    margin-left: 20px;
+}
+
+#rightRegister
+{
+    margin-left: 210px;
+}
+
+#bntRegister
+{
+    background: none;
+    color: rgb(0, 0, 0);
+    width: 245px;
+    height: 40px;
+    border: 1px solid black;
+
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    transition: all 0.2s;
+}
+
+#bntRegister:hover
+{
+    background: none;
+    color: #336fbd;
+
+    border: 1px solid #336fbd;
+}
+.hrRegister
+{
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
+.agreeRegister
+{
+    display: flex;
+}
+.checkboxInAtreeRegister
+{
+    width: 30px;
+    /* border: 1px solid black; */
+}
+.pInAgreeRegister
+{
+    width: 430px;
+    text-align: center;
+    margin-left: 10px;
+}
