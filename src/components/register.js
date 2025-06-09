@@ -5,7 +5,7 @@ function Register() {
     return (
 
         <div id='register'>
-            <h1 id='titleRegister'>SWAGA</h1>
+            <h1 id='titleRegister'>MYRA</h1>
 
             <div id='wrappRegister'>
                 <div id='leftRegister'>

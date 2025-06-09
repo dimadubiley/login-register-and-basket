@@ -5,7 +5,7 @@ function Login() {
     return (
 
         <div id='login'>
-            <h1 id='titleLogin'>SWAGA</h1>
+            <h1 id='titleLogin'>MYRA</h1>
 
             <div id='wrappLogin'>
                 <div id='leftLogin'>

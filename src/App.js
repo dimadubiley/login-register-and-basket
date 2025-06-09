@@ -7,6 +7,21 @@ function App() {
   return (
     <div className="App">
       <Register/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Login/>
     </div>
   );
 }
