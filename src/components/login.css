@@ -1,0 +1,85 @@
+#wrappLogin
+{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+#titleLogin {
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+#login {
+    margin-left: 100px;
+}
+
+#titleH2Login {
+    margin-left: 210px;
+}
+
+#leftLogin {
+    margin-top: 50px;
+}
+
+#formLogin {
+    margin-top: 100px;
+}
+
+.inputLogin {
+    border: none;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: black;
+}
+.inputLogin:focus
+{
+    outline:none;
+}
+
+.inputLogin::placeholder
+{
+    color: black;
+}
+
+.inputLogin,
+.hrLogin {
+    width: 500px;
+}
+
+.hrLogin
+{
+    margin-left: -0px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+#photoLogin
+{
+    width: 800px;
+    height: 900px;
+    margin-left: 20px;
+}
+
+#rightLogin
+{
+    margin-left: 210px;
+}
+
+#bntLogin
+{
+    background: #000;
+    color: white;
+    width: 245px;
+    height: 40px;
+    border: none;
+
+    transition: all 0.2s;
+}
+
+#bntLogin:hover
+{
+    background: #383838;
+    color: black;
+}
