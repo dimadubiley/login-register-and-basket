@@ -1,0 +1,38 @@
+#wrappShopCart
+{
+    margin-left: 50px;
+}
+.btnNavShopCart
+{
+    border: none;
+    background: none;
+}
+#bookmarkShopCart
+{
+    margin-bottom:-3px
+}
+
+#divUnderNavShopCart
+{
+    margin-top: 50px;
+}
+#imgcartshopCart
+{
+    margin-bottom: -20px;
+}
+
+#divForProportisShopCart
+{
+    margin-top: 100px;
+}
+
+.cartShopCart
+{
+    width: 230px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.cartContentShopCart
+{
+    text-align: end;
+}
