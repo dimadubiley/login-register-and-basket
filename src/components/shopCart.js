@@ -1,24 +1,58 @@
 import React from 'react';
 import './shopCart.css';
 import './cartForShopCart.css';
-// import {Cart, CartFavorite}  from './cartForShopCart';
-function Cart() {
+
+let arrForRecomendetedCarts = [
+    { img: '/Flacone.png', desk: '1234', price: '1991 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' }
+];
+
+function Cart(props) {
     return (
         <div className='cartShopCart'>
-            <img src='Flacone.png' alt='' className='fhotoForShopCart' />
+            <img src={props.img} alt='' className='fhotoForShopCart' />
             <div className='cartContentShopCart'>
-                <p>PARFUMATED WATER RED MYRA TEMPTATION</p>
-                <p>499,00 UAH</p>
+                <p>{props.desk}</p>
+                <p>{props.price}</p>
             </div>
         </div>
     );
 }
-function CartFavorite() {
+
+export function PrintCarts() {
+    return (
+        <div>
+            {arrForRecomendetedCarts.map(item => (
+                <Cart img={item.img} desk={item.desk} price={item.price} />
+            ))}
+        </div>
+    );
+    
+}
+
+
+function FavoriteCart() {
     return (
         <div className='cartInFaoriteShopCart'>
-            <img src='Flacone.png' alt='' className='fhotoForShopCart' />
-            <p>ДЖИНСИ TRF WIDE-LEG З ВИСОК</p>
-            <p className='priceFavoriveCart'>1 799,00 UAH</p>
+            <img src={props.img} alt='' className='fhotoForShopCart' />
+            <p>{props.desk}</p>
+            <p className='priceFavoriveCart'>{props.price}</p>
 
             <div className='countTovarShopCart'>
                 <p className='pForContTovarShopCart'>-</p>
@@ -28,6 +62,24 @@ function CartFavorite() {
         </div>
     );
 }
+export function PrintFavoriteCarts() {
+    return (
+        <div>
+            {arrForRecomendetedCarts.map(item => (
+                <FavoriteCart img={item.img} desk={item.desk} price={item.price} />
+            ))}
+        </div>
+    );
+    
+}
+
+
+
+
+
+
+
+
 function ShopCart() {
     return (
         <div id='wrappShopCart'>
@@ -38,36 +90,13 @@ function ShopCart() {
             </div>
             <div id='divUnderNavShopCart'>
 
-                <CartFavorite/>
-                <CartFavorite/>
-                <CartFavorite/>
-                <CartFavorite/>
-                <CartFavorite/>
-
             </div>
 
             <div id='divForProportisShopCart'>
                 <p>can also hit you up</p>
 
                 <div id='cartsShopCart'>
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
-                    <Cart />
+                    <PrintCarts/>
                 </div>
             </div>
         </div>
