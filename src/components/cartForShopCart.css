@@ -1,0 +1,29 @@
+.cartInFaoriteShopCart
+{
+    margin-right: 50px;
+}
+.cartShopCart {
+    width: 230px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.cartContentShopCart {
+    text-align: end;
+}
+
+
+.priceFavoriveCart
+{
+    font-size: 13px;
+}
+.countTovarShopCart
+{
+    display: flex;
+    align-items: center;
+}
+.pForContTovarShopCart
+{
+    margin-right: 30px;
+    color: rgb(129, 129, 129);
+}

@@ -1,38 +1,25 @@
-#wrappShopCart
-{
+#wrappShopCart {
     margin-left: 50px;
 }
-.btnNavShopCart
-{
+
+.btnNavShopCart {
     border: none;
     background: none;
 }
-#bookmarkShopCart
-{
-    margin-bottom:-3px
+
+#bookmarkShopCart {
+    margin-bottom: -3px
 }
 
-#divUnderNavShopCart
-{
+#divUnderNavShopCart {
     margin-top: 50px;
+    display: flex;
 }
-#imgcartshopCart
-{
+
+#imgcartshopCart {
     margin-bottom: -20px;
 }
 
-#divForProportisShopCart
-{
+#divForProportisShopCart {
     margin-top: 100px;
-}
-
-.cartShopCart
-{
-    width: 230px;
-    display: inline-block;
-    margin-right: 50px;
-}
-.cartContentShopCart
-{
-    text-align: end;
 }
