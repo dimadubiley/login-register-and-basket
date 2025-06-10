@@ -40,7 +40,6 @@ function Cart(props) {
         </div>
     );
 }
-
 export function PrintCarts() {
     return (
         <div>
@@ -49,7 +48,7 @@ export function PrintCarts() {
             ))}
         </div>
     );
-    
+
 }
 
 //------------------------------------------------------------------------------
@@ -76,7 +75,7 @@ export function PrintFavoriteCarts() {
             ))}
         </div>
     );
-    
+
 }
 
 //------------------------------------------------------------------------------
@@ -89,14 +88,14 @@ function ShopCart() {
                 <img src='Bookmark.png' alt='' id='bookmarkShopCart' />
             </div>
             <div id='divUnderNavShopCart'>
-                <PrintFavoriteCarts/>
+                <PrintFavoriteCarts />
             </div>
 
             <div id='divForProportisShopCart'>
                 <p>can also hit you up</p>
 
                 <div id='cartsShopCart'>
-                    <PrintCarts/>
+                    <PrintCarts />
                 </div>
             </div>
         </div>
