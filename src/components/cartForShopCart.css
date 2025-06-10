@@ -1,6 +1,7 @@
 .cartInFaoriteShopCart
 {
     margin-right: 50px;
+    display: inline-block;
 }
 .cartShopCart {
     width: 230px;
@@ -16,6 +17,8 @@
 .priceFavoriveCart
 {
     font-size: 13px;
+    text-align: end;
+    margin-right: 70px;
 }
 .countTovarShopCart
 {
@@ -26,4 +29,9 @@
 {
     margin-right: 30px;
     color: rgb(129, 129, 129);
+}
+.deskFavoroteCart
+{
+    width: 200px;
+    text-align: end;
 }

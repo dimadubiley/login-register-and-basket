@@ -3,7 +3,7 @@ import './shopCart.css';
 import './cartForShopCart.css';
 
 let arrForRecomendetedCarts = [
-    { img: '/Flacone.png', desk: '1234', price: '1991 UAN' },
+    { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
     { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
     { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
     { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
@@ -22,7 +22,13 @@ let arrForRecomendetedCarts = [
     { img: '/Flacone.png', desk: '1234', price: '1990 UAN' },
     { img: '/Flacone.png', desk: '1234', price: '1990 UAN' }
 ];
+let arrForFavoriteCarts = [
+    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
+    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' }
+];
 
+//------------------------------------------------------------------------------
 function Cart(props) {
     return (
         <div className='cartShopCart'>
@@ -46,12 +52,12 @@ export function PrintCarts() {
     
 }
 
-
-function FavoriteCart() {
+//------------------------------------------------------------------------------
+function FavoriteCart(props) {
     return (
         <div className='cartInFaoriteShopCart'>
             <img src={props.img} alt='' className='fhotoForShopCart' />
-            <p>{props.desk}</p>
+            <p className='deskFavoroteCart'>{props.desk}</p>
             <p className='priceFavoriveCart'>{props.price}</p>
 
             <div className='countTovarShopCart'>
@@ -65,7 +71,7 @@ function FavoriteCart() {
 export function PrintFavoriteCarts() {
     return (
         <div>
-            {arrForRecomendetedCarts.map(item => (
+            {arrForFavoriteCarts.map(item => (
                 <FavoriteCart img={item.img} desk={item.desk} price={item.price} />
             ))}
         </div>
@@ -73,13 +79,7 @@ export function PrintFavoriteCarts() {
     
 }
 
-
-
-
-
-
-
-
+//------------------------------------------------------------------------------
 function ShopCart() {
     return (
         <div id='wrappShopCart'>
@@ -89,7 +89,7 @@ function ShopCart() {
                 <img src='Bookmark.png' alt='' id='bookmarkShopCart' />
             </div>
             <div id='divUnderNavShopCart'>
-
+                <PrintFavoriteCarts/>
             </div>
 
             <div id='divForProportisShopCart'>
