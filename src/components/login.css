@@ -1,85 +1,162 @@
-#wrappLogin
-{
-    display: flex;
-    /* justify-content: space-between; */
-    width: 100%;
+@media(min-width: 361px) {
+    #wrappLogin {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+    }
+
+    #titleLogin {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    #login {
+        margin-left: 100px;
+    }
+
+    #titleH2Login {
+        margin-left: 210px;
+    }
+
+    #leftLogin {
+        margin-top: 50px;
+    }
+
+    #formLogin {
+        margin-top: 100px;
+    }
+
+    .inputLogin {
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .inputLogin:focus {
+        outline: none;
+    }
+
+    .inputLogin::placeholder {
+        color: black;
+    }
+
+    .inputLogin,
+    .hrLogin {
+        width: 500px;
+    }
+
+    .hrLogin {
+        margin-left: -0px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+
+    #photoLogin {
+        width: 800px;
+        height: 900px;
+        margin-left: 20px;
+    }
+
+    #rightLogin {
+        margin-left: 210px;
+    }
+
+    #bntLogin {
+        background: #000;
+        color: white;
+        width: 245px;
+        height: 40px;
+        border: none;
+
+        transition: all 0.2s;
+    }
+
+    #bntLogin:hover {
+        background: #383838;
+        color: black;
+    }
 }
 
-#titleLogin {
-    font-size: 50px;
-    margin-left: 150px;
-}
+@media(width: 360px) {
+    #wrappLogin {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 200px;
+    }
 
-#login {
-    margin-left: 100px;
-}
+    #titleLogin {
+        font-size: 50px;
+        margin-left: 0;
+    }
 
-#titleH2Login {
-    margin-left: 210px;
-}
+    #login {
+        margin-left: 50px;
+    }
 
-#leftLogin {
-    margin-top: 50px;
-}
+    #titleH2Login {
+        margin-left: 0;
+    }
 
-#formLogin {
-    margin-top: 100px;
-}
+    #leftLogin {
+        margin-top: 50px;
+    }
 
-.inputLogin {
-    border: none;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: black;
-}
-.inputLogin:focus
-{
-    outline:none;
-}
+    #formLogin {
+        margin-top: 10px;
+        margin-left: -10px;
+    }
 
-.inputLogin::placeholder
-{
-    color: black;
-}
+    .inputLogin {
+        border: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: black;
+    }
 
-.inputLogin,
-.hrLogin {
-    width: 500px;
-}
+    .inputLogin:focus {
+        outline: none;
+    }
 
-.hrLogin
-{
-    margin-left: -0px;
-    margin-top: -20px;
-    margin-bottom: 30px;
-}
+    .inputLogin::placeholder {
+        color: black;
+    }
 
-#photoLogin
-{
-    width: 800px;
-    height: 900px;
-    margin-left: 20px;
-}
+    .inputLogin,
+    .hrLogin {
+        width: 250px;
+    }
 
-#rightLogin
-{
-    margin-left: 210px;
-}
+    .hrLogin {
+        margin-left: -0px;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
 
-#bntLogin
-{
-    background: #000;
-    color: white;
-    width: 245px;
-    height: 40px;
-    border: none;
+    #rightLogin {
+        display: none;
+    }
 
-    transition: all 0.2s;
-}
+    #bntLogin {
+        background: #000;
+        color: white;
+        width: 245px;
+        height: 40px;
+        border: none;
 
-#bntLogin:hover
-{
-    background: #383838;
-    color: black;
+        transition: all 0.2s;
+    }
+
+    #bntLogin:hover {
+        background: #383838;
+        color: black;
+    }
+    #forgotePassLogin
+    {
+        text-decoration:underline;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
 }

@@ -21,8 +21,11 @@ function Login() {
                         </div>
                         <hr className='hrLogin' />
 
+                        <p id='forgotePassLogin'>Forgot your password?</p>
 
-                            <button id='bntLogin'>log in</button>
+                        <button id='bntLogin'>log in</button>
+                        <br/>
+                        <button id='bntRegister'>Sing in</button>
                     </div>
                 </div>
                 <div id='rightLogin'>
