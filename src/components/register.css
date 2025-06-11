@@ -1,105 +1,204 @@
-#wrappRegister
-{
-    display: flex;
-    /* justify-content: space-between; */
-    width: 100%;
+@media(min-width: 361px) {
+    #wrappRegister {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 100%;
+    }
+
+    #titleRegister {
+        font-size: 50px;
+        margin-left: 150px;
+    }
+
+    #register {
+        margin-left: 100px;
+    }
+
+    #titleH2Register {
+        margin-left: 210px;
+    }
+
+    #leftRegister {
+        margin-top: 50px;
+    }
+
+    #formRegister {
+        margin-top: 100px;
+    }
+
+    .inputRegister {
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: black;
+    }
+
+    .inputRegister:focus {
+        outline: none;
+    }
+
+    .inputRegister::placeholder {
+        color: black;
+    }
+
+    .inputRegister,
+    .bntRegister {
+        width: 500px;
+    }
+
+    #photoRegister {
+        width: 800px;
+        height: 900px;
+        margin-left: 20px;
+    }
+
+    #rightRegister {
+        margin-left: 210px;
+    }
+
+    #bntRegister {
+        background: none;
+        color: rgb(0, 0, 0);
+        width: 245px;
+        height: 40px;
+        border: 1px solid black;
+
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        transition: all 0.3s;
+    }
+
+    #bntRegister:hover {
+        background: none;
+        color: #336fbd;
+
+        border: 1px solid #336fbd;
+    }
+
+    .hrRegister {
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+
+    .agreeRegister {
+        display: flex;
+    }
+
+    .checkboxInAtreeRegister {
+        width: 30px;
+        /* border: 1px solid black; */
+    }
+
+    .pInAgreeRegister {
+        width: 430px;
+        text-align: center;
+        margin-left: 10px;
+    }
 }
 
-#titleRegister {
-    font-size: 50px;
-    margin-left: 150px;
-}
+@media(width: 360px) {
+    #wrappRegister {
+        display: flex;
+        /* justify-content: space-between; */
+        width: 360px;
+    }
 
-#register {
-    margin-left: 100px;
-}
+    #titleRegister {
+        font-size: 50px;
+        margin-left: 100px;
+    }
 
-#titleH2Register {
-    margin-left: 210px;
-}
+    #register {
+        margin-left: 0px;
+    }
 
-#leftRegister {
-    margin-top: 50px;
-}
+    #titleH2Register {
+        margin-left: 120px
+    }
 
-#formRegister {
-    margin-top: 100px;
-}
+    #leftRegister {
+        margin-top: 50px;
+    }
 
-.inputRegister {
-    border: none;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    font-size: 20px;
-    color: black;
-}
-.inputRegister:focus
-{
-    outline:none;
-}
+    #formRegister {
+        margin-top: 100px;
+    }
 
-.inputRegister::placeholder
-{
-    color: black;
-}
+    .inputRegister {
+        border: none;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: black;
+    }
 
-.inputRegister,
-.bntRegister {
-    width: 500px;
-}
+    .inputRegister:focus {
+        outline: none;
+    }
 
-#photoRegister
-{
-    width: 800px;
-    height: 900px;
-    margin-left: 20px;
-}
+    .inputRegister::placeholder {
+        color: black;
+    }
 
-#rightRegister
-{
-    margin-left: 210px;
-}
+    .inputRegister,
+    .bntRegister {
+        width: 500px;
+    }
 
-#bntRegister
-{
-    background: none;
-    color: rgb(0, 0, 0);
-    width: 245px;
-    height: 40px;
-    border: 1px solid black;
+    #photoRegister {
+        width: 800px;
+        height: 900px;
+        margin-left: 20px;
+    }
 
-    margin-left: 0px;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    #rightRegister {
+        margin-left: 210px;
+    }
 
-    transition: all 0.3s;
-}
+    #bntRegister {
+        background: none;
+        color: rgb(0, 0, 0);
+        width: 245px;
+        height: 40px;
+        border: 1px solid black;
 
-#bntRegister:hover
-{
-    background: none;
-    color: #336fbd;
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
 
-    border: 1px solid #336fbd;
-}
-.hrRegister
-{
-    margin-top: -20px;
-    margin-bottom: 50px;
-}
+        transition: all 0.3s;
+    }
 
-.agreeRegister
-{
-    display: flex;
-}
-.checkboxInAtreeRegister
-{
-    width: 30px;
-    /* border: 1px solid black; */
-}
-.pInAgreeRegister
-{
-    width: 430px;
-    text-align: center;
-    margin-left: 10px;
+    #bntRegister:hover {
+        background: none;
+        color: #336fbd;
+
+        border: 1px solid #336fbd;
+    }
+
+    .hrRegister {
+        margin-top: -20px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        width: 200px;
+
+    }
+
+    .agreeRegister {
+        display: flex;
+    }
+
+    .checkboxInAtreeRegister {
+        width: 30px;
+        /* border: 1px solid black; */
+    }
+
+    .pInAgreeRegister {
+        width: 230px;
+        text-align: center;
+        margin-left: 10px;
+    }
 }
