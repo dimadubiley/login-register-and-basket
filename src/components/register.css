@@ -68,11 +68,11 @@
     height: 40px;
     border: 1px solid black;
 
-    margin-left: 100px;
+    margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 30px;
 
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 
 #bntRegister:hover
