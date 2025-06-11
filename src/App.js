@@ -7,9 +7,9 @@ import ShopCart from './components/shopCart';
 function App() {
   return (
     <div className="App">
-      <Register/>
+      {/* <Register/> */}
       {/* <Login/> */}
-      {/* <ShopCart/> */}
+      <ShopCart/>
     </div>
   );
 }

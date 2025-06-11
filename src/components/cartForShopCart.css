@@ -1,37 +1,87 @@
-.cartInFaoriteShopCart
-{
-    margin-right: 50px;
-    display: inline-block;
-}
-.cartShopCart {
-    width: 230px;
-    display: inline-block;
-    margin-right: 50px;
+@media(min-width: 361px) {
+    .cartInFaoriteShopCart {
+        margin-right: 50px;
+        display: inline-block;
+    }
+
+    .cartShopCart {
+        width: 230px;
+        display: inline-block;
+        margin-right: 50px;
+    }
+
+    .cartContentShopCart {
+        text-align: end;
+    }
+
+
+    .priceFavoriveCart {
+        font-size: 13px;
+        text-align: end;
+        margin-right: 70px;
+        /* width: 100px; */
+    }
+
+    .countTovarShopCart {
+        display: flex;
+        align-items: center;
+    }
+
+    .pForContTovarShopCart {
+        margin-right: 30px;
+        color: rgb(129, 129, 129);
+    }
+
+    .deskFavoroteCart {
+        width: 200px;
+        text-align: end;
+    }
 }
 
-.cartContentShopCart {
-    text-align: end;
-}
+@media(width: 360px) {
+    .cartInFaoriteShopCart {
+        margin-right: 30px;
+        display: inline-block;
+        width: 100px;
+    }
+
+    .cartShopCart {
+        width: 50px;
+        display: inline-block;
+        margin-right: 40px;
+    }
+
+    .cartContentShopCart {
+        text-align: end;
+        width: 40px;
+        font-size: 10px;
+    }
 
 
-.priceFavoriveCart
-{
-    font-size: 13px;
-    text-align: end;
-    margin-right: 70px;
-}
-.countTovarShopCart
-{
-    display: flex;
-    align-items: center;
-}
-.pForContTovarShopCart
-{
-    margin-right: 30px;
-    color: rgb(129, 129, 129);
-}
-.deskFavoroteCart
-{
-    width: 200px;
-    text-align: end;
+    .priceFavoriveCart {
+        font-size: 13px;
+        text-align: end;
+        margin-right: 70px;
+    }
+
+    .countTovarShopCart {
+        display: flex;
+        align-items: center;
+        width: 100px;
+    }
+
+    .pForContTovarShopCart {
+        margin-right: 30px;
+        color: rgb(129, 129, 129);
+    }
+
+    .deskFavoroteCart {
+        width: 50px;
+        text-align: end;
+    }
+    .fhotoForShopCart
+    {
+        width: 100px;
+        margin-left: -20px;
+    }
 }
