@@ -61,7 +61,7 @@
     .priceFavoriveCart {
         font-size: 13px;
         text-align: end;
-        margin-right: 70px;
+        margin-right: 20px;
     }
 
     .countTovarShopCart {
@@ -77,11 +77,11 @@
 
     .deskFavoroteCart {
         width: 50px;
-        text-align: end;
+        text-align: center;
     }
     .fhotoForShopCart
     {
         width: 100px;
-        margin-left: -20px;
+        margin-left: -0px;
     }
 }
