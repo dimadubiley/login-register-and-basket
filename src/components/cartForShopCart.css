@@ -55,6 +55,7 @@
         text-align: end;
         width: 40px;
         font-size: 10px;
+        /* margin-left: ; */
     }
 
 
@@ -79,9 +80,13 @@
         width: 50px;
         text-align: center;
     }
-    .fhotoForShopCart
+    .fhotoForShopCart, .fhotoForShopCartFavorite
     {
         width: 100px;
         margin-left: -0px;
+    }
+    .fhotoForShopCartFavorite
+    {
+        margin-right: 50px;
     }
 }

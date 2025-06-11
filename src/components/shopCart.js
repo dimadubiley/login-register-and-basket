@@ -55,7 +55,7 @@ export function PrintCarts() {
 function FavoriteCart(props) {
     return (
         <div className='cartInFaoriteShopCart'>
-            <img src={props.img} alt='' className='fhotoForShopCart' />
+            <img src={props.img} alt='' className='fhotoForShopCartFavorite' />
             <p className='deskFavoroteCart'>{props.desk}</p>
             <p className='priceFavoriveCart'>{props.price}</p>
 
