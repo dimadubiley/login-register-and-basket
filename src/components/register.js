@@ -12,8 +12,8 @@ function Register() {
                     <h2 id='titleH2Register'>Register</h2>
 
                     <div id='formRegister'>
-                        <div className='formRegister'>
-                            <input type="text" className='inputRegister' placeholder="Name" />
+                        <div className='formRegister'>  
+                            <input type="text" className='inputRegister' placeholder="Name"/>
                         </div>
                         <hr className='hrRegister' />
                         <div className='formRegister'>

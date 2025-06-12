@@ -1,0 +1,17 @@
+#notFound
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+#titleNotFound
+{
+    font-size: 50px;
+    width: 200px;
+}
+#contentNotFound
+{
+    display: flex;
+    align-items: row;
+    margin-top: 300px;
+}
