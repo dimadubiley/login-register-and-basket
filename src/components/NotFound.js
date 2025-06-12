@@ -6,7 +6,7 @@ function NotFound() {
         <div id='notFound'>
             <div id='contentNotFound'>
                 <img src='Sad.png' alt='' id='sadIconNotFound' />
-                <h1 id='titleNotFound'>Not Found</h1>
+                <h1 id='titleNotFound'>404 <br/>Not Found</h1>
             </div>
         </div>
     );
