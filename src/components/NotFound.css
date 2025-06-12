@@ -1,17 +1,22 @@
-#notFound
-{
+#notFound {
     display: flex;
     justify-content: center;
     width: 100%;
 }
-#titleNotFound
-{
+
+#titleNotFound {
     font-size: 50px;
     width: 200px;
 }
-#contentNotFound
-{
+
+#contentNotFound {
     display: flex;
     align-items: row;
     margin-top: 300px;
+}
+
+#sadIconNotFound {
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
 }
