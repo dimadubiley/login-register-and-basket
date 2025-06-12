@@ -100,10 +100,11 @@
 }
 
 @media(width: 360px) {
+
     #wrappRegister {
         display: flex;
         /* justify-content: space-between; */
-        width: 360px;
+        width: 350px;
     }
 
     #titleRegister {
@@ -116,7 +117,11 @@
     }
 
     #titleH2Register {
-        margin-left: 120px
+        margin-left: 120px;
+        /* margin-top: -100xp; */
+        margin-top: -50px;
+        margin-bottom: -50px;
+        width: 50px;
     }
 
     #leftRegister {
@@ -125,6 +130,7 @@
 
     #formRegister {
         margin-top: 100px;
+        width: 300px;
     }
 
     .inputRegister {
@@ -133,6 +139,7 @@
         margin-bottom: 20px;
         font-size: 20px;
         color: black;
+        width: 240px;
     }
 
     .inputRegister:focus {
@@ -143,15 +150,9 @@
         color: black;
     }
 
-    .inputRegister,
-    .bntRegister {
-        width: 500px;
-    }
 
-    #photoRegister {
-        width: 800px;
-        height: 900px;
-        margin-left: 20px;
+    .bntRegister {
+        width: 360px;
     }
 
     #rightRegister {
@@ -183,8 +184,6 @@
         margin-top: -20px;
         margin-bottom: 50px;
         margin-left: 20px;
-        width: 200px;
-
     }
 
     .agreeRegister {
@@ -193,7 +192,6 @@
 
     .checkboxInAtreeRegister {
         width: 30px;
-        /* border: 1px solid black; */
     }
 
     .pInAgreeRegister {

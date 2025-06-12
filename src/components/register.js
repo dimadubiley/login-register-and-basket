@@ -13,6 +13,14 @@ function Register() {
 
                     <div id='formRegister'>
                         <div className='formRegister'>
+                            <input type="text" className='inputRegister' placeholder="Name" />
+                        </div>
+                        <hr className='hrRegister' />
+                        <div className='formRegister'>
+                            <input type="text" className='inputRegister' placeholder="Surname" />
+                        </div>
+                        <hr className='hrRegister' />
+                        <div className='formRegister'>
                             <input type="text" className='inputRegister' placeholder="E-Mail" />
                         </div>
                         <hr className='hrRegister' />
@@ -20,16 +28,6 @@ function Register() {
                             <input type="password" className='inputRegister' placeholder="Password" />
                         </div>
                         <hr className='hrRegister' />
-                        <div className='formRegister'>
-                            <input type="text" className='inputRegister' placeholder="Name" />
-                        </div>
-                        <hr className='hrRegister' />
-                        <div className='formRegister'>
-                            <input type="text" className='inputRegister' placeholder="Surname" />
-                        </div>
-                        <hr className='hrRegister'/>
-
-
                         <div className='agreeRegister'>
                             <input type="checkbox" className='checkboxInAtreeRegister'></input>
                             <p className='pInAgreeRegister'>I want to receive personalized commercial messages from NAME by email.</p>

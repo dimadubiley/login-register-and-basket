@@ -1,4 +1,4 @@
-@media(min-width: 361px) {
+@media(min-width: 600px) {
     .cartInFaoriteShopCart {
         margin-right: 50px;
         display: inline-block;
@@ -38,7 +38,7 @@
     }
 }
 
-@media(width: 360px) {
+@media(min-width: 360px) and (max-width: 600px){
     .cartInFaoriteShopCart {
         margin-right: 30px;
         display: inline-block;
@@ -77,8 +77,9 @@
     }
 
     .deskFavoroteCart {
-        width: 50px;
+        width: 80px;
         text-align: center;
+        font-size: 10px;
     }
     .fhotoForShopCart, .fhotoForShopCartFavorite
     {
