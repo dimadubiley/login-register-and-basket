@@ -2,15 +2,6 @@
     margin-left: 50px;
 }
 
-.btnNavShopCart {
-    border: none;
-    background: none;
-}
-
-#bookmarkShopCart {
-    margin-bottom: -3px
-}
-
 #divUnderNavShopCart {
     margin-top: 50px;
     display: flex;
@@ -22,8 +13,4 @@
 
 #divForProportisShopCart {
     margin-top: 100px;
-}
-#navShopCart
-{
-    margin-top: 50px;
 }

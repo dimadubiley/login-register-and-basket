@@ -1,6 +1,7 @@
 import React from 'react';
 import './shopCart.css';
 import './cartForShopCart.css';
+import NavDD from './navDD';
 
 let arrForRecomendetedCarts = [
     { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
@@ -82,11 +83,7 @@ export function PrintFavoriteCarts() {
 function ShopCart() {
     return (
         <div id='wrappShopCart'>
-            <div id='navShopCart'>
-                <button className='btnNavShopCart'>shop cart</button>
-                <button className='btnNavShopCart'>favotites</button>
-                <img src='Bookmark.png' alt='' id='bookmarkShopCart' />
-            </div>
+            <NavDD/>
             <div id='divUnderNavShopCart'>
                 <PrintFavoriteCarts />
             </div>

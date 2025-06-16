@@ -4,6 +4,7 @@ import Login from './components/login';
 import Register from './components/register';
 import ShopCart from './components/shopCart';
 import NotFound from './components/NotFound';
+import Favorite from './components/favorite';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Register/> */}
       {/* <Login/> */}
       {/* <ShopCart/> */}
-      <NotFound/>
+      {/* <NotFound/> */}
+      <Favorite/>
     </div>
   );
 }
