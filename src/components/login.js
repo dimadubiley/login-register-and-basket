@@ -23,9 +23,10 @@ function Login() {
 
                         <p id='forgotePassLogin'>Forgot your password?</p>
 
-                        <button id='bntLogin'>log in</button>
-                        <br/>
-                        <button id='bntRegister'>Sing in</button>
+                        <div id='divBntLoginAndSingUp'>
+                            <button id='bntLogin'>login</button>
+                            <button id='bntSingUp'>Sing up</button>
+                        </div>
                     </div>
                 </div>
                 <div id='rightLogin'>
