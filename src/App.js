@@ -9,8 +9,8 @@ import Favorite from './components/favorite';
 function App() {
   return (
     <div className="App">
-      {/* <Register/> */}
-      <Login/>
+      <Register/>
+      {/* <Login/> */}
       {/* <ShopCart/> */}
       {/* <NotFound/> */}
       {/* <Favorite/> */}

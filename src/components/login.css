@@ -2,8 +2,24 @@
     color: rgb(133, 133, 133)0;
 }
 
+#titleH2Login,
+#forgotePassLogin,
+#bntLogin,
+#bntSingUp,
+.formLogin {
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
-@media(min-width: 361px) {
+#bntLogin:focus
+{
+    outline: none;
+    /* border: none; */
+}
+
+
+@media(min-width: 403px) {
     #wrappLogin {
         display: flex;
         /* justify-content: space-between; */
@@ -37,10 +53,6 @@
         margin-bottom: 20px;
         font-size: 20px;
         color: black;
-    }
-
-    .inputLogin:focus {
-        outline: none;
     }
 
     .inputLogin,
@@ -77,6 +89,27 @@
     #bntLogin:hover {
         background: #383838;
         color: black;
+    }
+
+    #bntSingUp {
+        background: none;
+        color: rgb(0, 0, 0);
+        width: 245px;
+        height: 40px;
+        border: 1px solid black;
+
+        margin-left: 0px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+        transition: all 0.3s;
+    }
+
+    #bntSingUp:hover {
+        background: none;
+        color: #336fbd;
+
+        border: 1px solid #336fbd;
     }
 }
 
@@ -117,7 +150,11 @@
         color: black;
     }
 
-    
+    .inputLogin::placeholder {
+        font-size: 15px;
+    }
+
+
     .inputLogin,
     .hrLogin {
         width: 340px;
@@ -148,6 +185,7 @@
         background: #383838;
         color: black;
     }
+
     #bntSingUp {
         background: none;
         color: rgb(0, 0, 0);
@@ -161,20 +199,26 @@
     }
 
 
-    #forgotePassLogin
-    {
-        /* text-decoration:underline; */
-        /* margin-top: 20px; */
+    #forgotePassLogin {
+        margin-top: 19px;
+
         margin-bottom: 30px;
         margin-left: 100px;
 
-        font-size: 15px;
+        font-size: 13px;
     }
 
-    #divBntLoginAndSingUp
-    {
+    #divBntLoginAndSingUp {
         display: flex;
         justify-content: center;
         align-items: row;
     }
 }
+
+
+/*
+Закинуть в index.html <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inder&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+*/

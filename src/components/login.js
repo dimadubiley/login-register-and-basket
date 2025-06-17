@@ -1,31 +1,32 @@
 import React from 'react';
 import './login.css';
+import Logo from './logo';
 
 function Login() {
     return (
 
         <div id='login'>
-            <h1 id='titleLogin'>MYRA</h1>
+            <Logo/>
 
             <div id='wrappLogin'>
                 <div id='leftLogin'>
-                    <h2 id='titleH2Login'>Log in</h2>
+                    <h2 id='titleH2Login'>LOGIN</h2>
 
                     <div id='formLogin'>
                         <div className='formLogin'>
-                            <input type="text" className='inputLogin' placeholder="E-Mail" />
+                            <input type="text" className='inputLogin' placeholder="E-MAIL" />
                         </div>
                         <hr className='hrLogin' />
                         <div className='formLogin'>
-                            <input type="password" className='inputLogin' placeholder="Password" />
+                            <input type="password" className='inputLogin' placeholder="PASSWORD" />
                         </div>
                         <hr className='hrLogin' />
 
                         <p id='forgotePassLogin'>Forgot your password?</p>
 
                         <div id='divBntLoginAndSingUp'>
-                            <button id='bntLogin'>login</button>
-                            <button id='bntSingUp'>Sing up</button>
+                            <button id='bntLogin'>LOGIN</button>
+                            <button id='bntSingUp'>SING UP</button>
                         </div>
                     </div>
                 </div>
