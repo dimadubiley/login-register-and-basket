@@ -199,7 +199,6 @@
         display: flex;
         font-size: 9px;
         margin-left: 20px;
-        /* margin-top: ; */
         width: 350px;
         
     }
@@ -216,7 +215,7 @@
     }
     #agrees
     {
-        margin-top: -40px;
+        margin-top: -30px;
     }
 
     #bntLogin {
