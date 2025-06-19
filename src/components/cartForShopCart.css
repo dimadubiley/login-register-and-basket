@@ -62,13 +62,13 @@
 
 
     .priceFavoriveCart {
-        font-size: 13px;
-        text-align: end;
+        font-size: 8px;
+        text-align: start;
         margin-right: 20px;
     }
 
     .countTovarShopCart {
-        display: flex;
+        display: none;
         align-items: center;
         width: 100px;
     }
@@ -80,12 +80,13 @@
 
     .deskFavoroteCart {
         width: 80px;
-        text-align: center;
+        text-align: start;
         font-size: 10px;
+        margin-bottom: -8px;
     }
     .fhotoForShopCartFavorite
     {
-        width: 100px;
+        width: 153px;
         margin-left: -0px;
     }
     .fhotoForShopCart
