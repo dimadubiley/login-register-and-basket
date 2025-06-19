@@ -3,31 +3,23 @@ import './shopCart.css';
 import './cartForShopCart.css';
 import NavDD from './navDD';
 
-let arrForRecomendetedCarts = [
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' }
-];
 let arrForFavoriteCarts = [
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' },
-    { img: '/Flacone.png', desk: 'PARFUMATED WATER RED MYRA TEMPTATION', price: '1990 UAN' }
+    { img: '/1photoInCart.png', desk: 'cool baggy jeans', price: '1.488 UAN' },    
 ];
+
+let arrForRecomendetedCarts = [
+    { img: '/1photoCart.png', desk: 't-shirt', price: '1.488 UAN' },
+    { img: '/3photoCart.png', desk: 'violet baggy jeans', price: '1.488 UAN' },
+    { img: '/5photoCart.png', desk: 'cool guy', price: '1.488 UAN' },
+    { img: '/5photoCart.png', desk: 'baggy jeans', price: '1.488 UAN' },
+    { img: '/6photoCart.png', desk: 'baggy jeans', price: '1.488 UAN' },
+    { img: '/4photoCart.png', desk: 'yellow', price: '1.488 UAN' },
+    { img: '/7photoCart.png', desk: 'white swimsuit', price: '1.488 UAN' },
+    { img: '/2photoCart.png', desk: 'pink sweater', price: '1.488 UAN' },
+    { img: '/9photoCart.png', desk: 'shoes', price: '1.488 UAN' },
+    { img: '/10photoCart.png', desk: 'cool', price: '1.488 UAN' },
+];
+
 
 //------------------------------------------------------------------------------
 function Cart(props) {
