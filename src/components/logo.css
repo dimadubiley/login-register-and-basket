@@ -5,17 +5,26 @@
         margin-top: 10px;
         margin-left: 10px;
     }
+    #logoadaptive
+    {
+        display: none;
+    }
 }
 
 @media (width:402px)
 {
-    #logo
+    #logoadaptive
     {
         margin-top: 10px;
+        margin-left: 90px;
     }
     #divForLogo
     {
         margin-left: 10px;
+    }
+    #logo
+    {
+        display: none;
     }
 }
 
