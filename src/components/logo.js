@@ -1,9 +1,10 @@
 import React from "react";
+import './logo.css'
 
 function Logo()
 {
     return(
-        <div>
+        <div id="divForLogo">
             <img src="Logo MYRA.png" id="logo"/>
         </div>
     );

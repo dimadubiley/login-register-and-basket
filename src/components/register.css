@@ -104,6 +104,21 @@
         text-align: center;
         margin-left: 10px;
     }
+
+    #bntLogin {
+        background: #000;
+        color: white;
+        width: 245px;
+        height: 40px;
+        border: none;
+
+        transition: all 0.2s;
+    }
+
+    #bntLogin:hover {
+        background: #383838;
+        color: black;
+    }
 }
 
 @media(width: 402px) {
@@ -111,7 +126,7 @@
     #wrappRegister {
         display: flex;
         /* justify-content: space-between; */
-        width: 350px;
+        width: 380px;
     }
 
     #register {
@@ -133,7 +148,7 @@
 
     #formRegister {
         margin-top: 100px;
-        width: 300px;
+        width: 4020px;
     }
 
     .inputRegister {
@@ -154,11 +169,6 @@
         font-size: 15px;
     }
 
-
-    .bntRegister {
-        width: 360px;
-    }
-
     #rightRegister {
         margin-left: 210px;
     }
@@ -166,8 +176,8 @@
     #bntRegister {
         background: none;
         color: rgb(0, 0, 0);
-        width: 152px;
-        height: 36px;
+        width: 154px;
+        height: 42px;
         border: 1px solid black;
 
         margin-left: 20px;
@@ -181,7 +191,7 @@
         margin-top: -20px;
         margin-bottom: 50px;
         margin-left: 20px;
-        width: 320px;
+        width: 335px;
         border-color: black;
     }
 
@@ -190,7 +200,7 @@
         font-size: 9px;
         margin-left: 20px;
         /* margin-top: ; */
-        width: 320px;
+        width: 350px;
         
     }
 
@@ -207,5 +217,22 @@
     #agrees
     {
         margin-top: -40px;
+    }
+
+    #bntLogin {
+        background: #000;
+        color: white;
+        width: 154px;
+        height: 42px;
+        border: none;
+
+        margin-left: 34px;
+
+        transition: all 0.2s;
+    }
+
+    #bntLogin:hover {
+        background: #383838;
+        color: black;
     }
 }

@@ -3,7 +3,6 @@
     #logo
     {
         margin-top: 10px;
-        margin-bottom: 70px;
         margin-left: 10px;
     }
 }
@@ -13,7 +12,10 @@
     #logo
     {
         margin-top: 10px;
-        margin-bottom: 70px;
+    }
+    #divForLogo
+    {
+        margin-left: 10px;
     }
 }
 
