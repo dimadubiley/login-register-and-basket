@@ -1,5 +1,6 @@
 #wrappShopCart {
-    margin-left: 50px;
+    margin-left: 10px;
+    width: 370px;
 }
 
 #divUnderNavShopCart {
@@ -9,6 +10,7 @@
 
 #imgcartshopCart {
     margin-bottom: -20px;
+    width: 350px;
 }
 
 #divForProportisShopCart {

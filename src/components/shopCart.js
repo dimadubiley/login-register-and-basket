@@ -4,7 +4,7 @@ import './cartForShopCart.css';
 import NavDD from './navDD';
 
 let arrForFavoriteCarts = [
-    { img: '/1photoInCart.png', desk: 'cool baggy jeans', price: '1.488 UAN' },    
+    { img: '/1photoInCart.png', desk: 'cool baggy jeans', price: '1.488 UAN' },
 ];
 
 let arrForRecomendetedCarts = [
@@ -75,7 +75,7 @@ export function PrintFavoriteCarts() {
 function ShopCart() {
     return (
         <div id='wrappShopCart'>
-            <NavDD/>
+            <NavDD />
             <div id='divUnderNavShopCart'>
                 <PrintFavoriteCarts />
             </div>
