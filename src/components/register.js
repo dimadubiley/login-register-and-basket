@@ -44,7 +44,7 @@ function Register() {
                         </div>
 
                         <button id='bntRegister'>SING UP</button>
-                        <button id='bntLogin'>LOGIN</button>
+                        <button id='bntLoginRegister'>LOGIN</button>
                     </div>
                 </div>
             </div>
