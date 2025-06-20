@@ -35,7 +35,7 @@ function Cart(props) {
 }
 export function PrintCarts() {
     return (
-        <div>
+        <div id='DivCarts'>
             {arrForRecomendetedCarts.map(item => (
                 <Cart img={item.img} desk={item.desk} price={item.price} />
             ))}
@@ -51,12 +51,6 @@ function FavoriteCart(props) {
             <img src={props.img} alt='' className='fhotoForShopCartFavorite' />
             <p className='deskFavoroteCart'>{props.desk}</p>
             <p className='priceFavoriveCart'>{props.price}</p>
-
-            <div className='countTovarShopCart'>
-                <p className='pForContTovarShopCart'>-</p>
-                <p className='pForContTovarShopCart'>1</p>
-                <p className='pForContTovarShopCart'>+</p>
-            </div>
         </div>
     );
 }

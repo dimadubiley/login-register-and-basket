@@ -5,7 +5,7 @@
     }
 
     .cartShopCart {
-        width: 230px;
+        width: 272px;
         display: inline-block;
         margin-right: 50px;
     }
@@ -18,27 +18,22 @@
     .priceFavoriveCart {
         font-size: 13px;
         text-align: end;
-        margin-right: 70px;
+        /* margin-right: 70px; */
         /* width: 100px; */
     }
 
-    .countTovarShopCart {
-        display: flex;
-        align-items: center;
-    }
-
-    .pForContTovarShopCart {
-        margin-right: 30px;
-        color: rgb(129, 129, 129);
-    }
-
     .deskFavoroteCart {
-        width: 200px;
+        width: 100%;
         text-align: end;
+    }
+
+    #cartsShopCart
+    {
+        width: 100%;
     }
 }
 
-@media(min-width: 402px){
+@media(width: 402px){
     
     .cartInFaoriteShopCart {
         /* margin-right: 30px; */
@@ -65,17 +60,6 @@
         font-size: 8px;
         text-align: start;
         margin-right: 20px;
-    }
-
-    .countTovarShopCart {
-        display: none;
-        align-items: center;
-        width: 100px;
-    }
-
-    .pForContTovarShopCart {
-        margin-right: 30px;
-        color: rgb(129, 129, 129);
     }
 
     .deskFavoroteCart {

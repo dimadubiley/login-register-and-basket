@@ -1,18 +1,48 @@
-#wrappShopCart {
-    margin-left: 10px;
-    width: 370px;
+@media (min-width: 403px)
+{
+    #wrappShopCart {
+        margin-left: 10px;
+        width: 1700px;
+    }
+    
+    #divUnderNavShopCart {
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    #imgcartshopCart {
+        margin-bottom: -20px;
+        width: 350px;
+    }
+    
+    #divForProportisShopCart {
+        width: 1000px;
+        margin-top: 100px;
+    }
+    #DivCarts
+    {
+        width: 1700px;
+    }
 }
 
-#divUnderNavShopCart {
-    margin-top: 50px;
-    display: flex;
-}
-
-#imgcartshopCart {
-    margin-bottom: -20px;
-    width: 350px;
-}
-
-#divForProportisShopCart {
-    margin-top: 100px;
+@media (min-width: 403px)
+{
+    #wrappShopCart {
+        margin-left: 10px;
+        width: 370px;
+    }
+    
+    #divUnderNavShopCart {
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    #imgcartshopCart {
+        margin-bottom: -20px;
+        width: 350px;
+    }
+    
+    #divForProportisShopCart {
+        margin-top: 100px;
+    }
 }
